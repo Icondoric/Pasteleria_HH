@@ -13,15 +13,19 @@ const View3 = () => {
           <img src="/public/top/back.png" alt="Botón de Retroceso" className="back-button" />
           <img src="/public/top/Pastelito.png" alt="Pastelito Logo" className="logo" />
         </div>
+      </div>
+
+      {/* Sección de la API (pasteles) al final */}
+      <div className="api-section">
         {pastel.map((pastel, index) => (
           <TagPasteles key={index} pastel={pastel} />
         ))}
       </div>
 
-      {/* Sección inferior */}
+      {/* Sección "Contacto y Ubicación" */}
       <div className="bottom-section">
         <h2>Contacto y Ubicación</h2>
-        {/* Agrega el contenido adicional de la sección inferior aquí */}
+        {/* ... (contenido de la sección de "Contacto y Ubicación") */}
       </div>
     </div>
   );

@@ -1,13 +1,16 @@
 /* /src/components/view3/View3.css */
 .view {
+
   padding: 20px;
-  text-align: center;
+
   background-color: #DDC08D;
+  max-width: 380px; /* Establece el ancho máximo a 380px */
+   /* Centra el componente en la página */
 }
 
 .top-section,
 .bottom-section {
-  margin-bottom: 20px;
+  margin-bottom: 2px;
 }
 
 .top-images {
@@ -17,11 +20,44 @@
 
 .back-button,
 .logo {
-  height: 30px; /* Ajusta la altura según sea necesario */
+  height: 30px;
 }
 
-h2 {
-  color: #333;
+.back-button {
+  align-self: flex-start;
 }
 
-/* Puedes agregar más estilos según sea necesario */
+.logo {
+  align-self: flex-end;
+  width: 15%;
+}
+
+.bottom-section {
+  /* ... (otros estilos para la sección de "Contacto y Ubicación") */
+}
+
+.api-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contenedor-api {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 1px;
+  padding: 10px;
+  max-width: 170px; /* Reducido para mantener el espacio entre los elementos */
+  text-align: left;
+}
+
+.contenedor-api img {
+  width: 100%;
+  height: auto;
+}
+
+.contenedor-api h2,
+.contenedor-api p {
+  margin: 0;
+}
