@@ -5,7 +5,11 @@ import './View3.css';
 const View3 = () => {
   return (
     <div className="view">
-      <h2>Contacto y Ubicación</h2>
+      <div className="top-images">
+        <img src="/top/back.png" alt="Back" className="back-image" />
+        <img src="/top/Pastelito.png" alt="Pastelito" className="pastelito-image" />
+      </div>
+      <h2>Pasteles</h2>
       <p>¡Visítanos en nuestra pastelería! Contáctanos para hacer pedidos personalizados o para obtener más información sobre nuestros productos.</p>
       <div className="contact-info">
         <p>Dirección: Calle de la Pastelería, 123</p>
