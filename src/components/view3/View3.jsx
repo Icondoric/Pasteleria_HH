@@ -11,12 +11,8 @@ const View3 = () => {
         </svg>
         
         </div>
-      <h2>Añadir Direccion</h2>
+      <h2>Añadir Dirección</h2>
       <div className="map-container">
-        {/* Aquí puedes integrar un mapa interactivo o una imagen del mapa de tu ubicación */}
-        
-        
-
         <img src="mapa.png" alt="Mapa de la ubicación de la pastelería" />
       </div>
     </div>
