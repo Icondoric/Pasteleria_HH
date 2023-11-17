@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+  .veizan {
+    margin-top: 550px;
+  }
+  .cuerpo{
+    border-radius: 20px;
+    background: #FFF;
+    margin: 10px;
+    width: 319.292px;
+    height: 170.613px;
+flex-shrink: 0;
+  }
+  
+  .dest {
+    margin-left: 20px;
+    color: #935614;
+    display: flex;
+  }
+  .titulo {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .descrp {
+    color: black;
+    display: inline;
+    position: absolute;
+    margin-top: -90px;
+    width: 200px;
+    right: 5px;
+  
+  
+  }
+   .butt {
+    color:aliceblue ;
+    background-color: #4DB066;
+    border-radius: 50%;
+    border: 0%;
+
+   }
+   .precio{
+    display: inline;
+    margin-right: 10px;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+   }
+
+  .im {
+    display: flex;
+    width: 127px;
+    height: 91px;
+   }
+   .mod{
+    margin-left: 200px;
+    position: relative;
+    margin-top: 10px;
+   }
+  

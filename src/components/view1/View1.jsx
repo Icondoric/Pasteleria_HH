@@ -1,6 +1,6 @@
 import React from 'react';
 import Destacados from './Destacados';
-import'./View1.css'
+import'./Destacados.css'
 function View1(props) {
   const informaciones = props.informaciones
   return (
