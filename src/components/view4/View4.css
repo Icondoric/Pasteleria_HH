@@ -1,0 +1,36 @@
+
+.views {
+  
+    padding: 20px;
+    text-align: center;
+    background-color: #F7EBDD;
+    margin: 0;  
+    border: 0;
+    height: 100vh;
+    
+  }
+  .iconosup{
+    position: absolute;
+    top: 45; 
+    left: 12; 
+  }
+  
+  h2 {
+    top: 30 ;
+    color: #333;
+  }
+
+  
+  .map-container2 {
+    width: 300px;
+    height: 200px;
+
+  }
+  
+  .map-container2 img {
+    width: 100%;
+    border-radius: 46px;
+    width: 303px;
+    height: 245px;
+    
+  }
