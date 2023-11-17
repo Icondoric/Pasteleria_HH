@@ -1,37 +1,27 @@
 /* /src/components/view3/View3.css */
 .view {
   padding: 20px;
-
+  text-align: center;
   background-color: #DDC08D;
+}
+
+.top-section,
+.bottom-section {
+  margin-bottom: 20px;
 }
 
 .top-images {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
 }
 
-.back-image{
-  width: 30px
-}
-.pastelito-image {
-  width: 30px
+.back-button,
+.logo {
+  height: 30px; /* Ajusta la altura según sea necesario */
 }
 
-.contact-info {
-  margin-top: 20px;
+h2 {
+  color: #333;
 }
 
-.contact-info p {
-  margin: 10px;
-}
-
-.map-container {
-  margin-top: 30px;
-}
-
-.map-container img {
-  width: 100%;
-  border-radius: 8px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-}
+/* Puedes agregar más estilos según sea necesario */
