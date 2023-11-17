@@ -13,9 +13,9 @@
   display: inline;
 }
 .pr_o {
+  color: rgba(0, 0, 0, 0.27);
   display: inline;
   margin-left: 160px;
-  color: rgba(0, 0, 0, 0.27);
 }
 .desc {
   display: inline;
