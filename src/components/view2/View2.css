@@ -1,4 +1,44 @@
+*{
+  margin: 0%;
+  padding: 0%;
 
+}
+.cuerpo{
+  border-radius: 20px;
+  background: #FFF;
+  margin: 20px;
+}
+
+.dest {
+  color: #935614;
+  display: flex;
+}
+.titulo {
+  color: #000;
+  text-align: center;
+  font-family: Maven Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.descrp {
+  color: darkgray;
+}
+.butt {
+  background-color: #4DB066;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: auto; /* Mueve el botón a la derecha */
+}
+/*
 .view {
     padding: 20px;
     text-align: center;
@@ -12,20 +52,20 @@
     color: #666;
   }
   
-  .menu-items {
+  .featured-products {
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
   }
   
-  .menu-item {
+  .product {
     margin: 10px;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 8px;
   }
   
-  .menu-item img {
+  .product img {
     width: 100%;
     border-radius: 8px;
   }
@@ -34,3 +74,22 @@
     font-weight: bold;
     color: #e44d26;
   }
+  
+  .special-offers {
+    margin-top: 30px;
+  }
+  
+  .offer {
+    margin: 15px;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .offer img {
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  */

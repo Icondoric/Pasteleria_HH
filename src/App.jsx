@@ -19,10 +19,8 @@ const App = () => {
       </Iphone14>
 
       <Iphone14>
-        <div>
-          {pastel.map(past => (
-            <View2 key={past.id} pastel={past} />
-          ))}
+      <div>
+          <View2  pastel={pastel} />
         </div>
       </Iphone14>
 
