@@ -1,0 +1,46 @@
+.cuadrado {
+  position: relative;
+  color: black;
+  width: 300px;
+  height: 150px;
+  background: #fff;
+  margin-left: 20px;
+  border-radius: 5%;
+  margin-top: -75px;
+  z-index: 0;
+}
+.title {
+  display: inline;
+}
+.pr_o {
+  display: inline;
+  margin-left: 160px;
+  color: rgba(0, 0, 0, 0.27);
+}
+.desc {
+  display: inline;
+  color: rgba(0, 0, 0, 0.27);
+}
+.pr_a {
+  display: inline;
+  margin-left: 130px;
+}
+.titulo {
+  display: flex;
+  margin-left: 15px;
+  color: #935614;
+}
+.b1 {
+  padding-top: 90px;
+}
+.img_g {
+  z-index: 1;
+  position: relative;
+  border-radius: 5%;
+}
+.div_img {
+  display: inline;
+}
+.cajita {
+  display: inline;
+}
