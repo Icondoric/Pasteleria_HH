@@ -30,4 +30,6 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   }
 
-  /*llamar los otros css*/
+  .cajota{
+    margin-top: 500px;
+  }
