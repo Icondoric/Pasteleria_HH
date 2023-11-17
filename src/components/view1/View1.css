@@ -1,55 +1,31 @@
+*{
+  margin: 0%;
+  padding: 0%;
 
-.view {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  h2 {
-    color: #333;
-  }
-  
-  p {
-    color: #666;
-  }
-  
-  .featured-products {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .product {
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-  }
-  
-  .product img {
-    width: 100%;
-    border-radius: 8px;
-  }
-  
-  .price {
-    font-weight: bold;
-    color: #e44d26;
-  }
-  
-  .special-offers {
-    margin-top: 30px;
-  }
-  
-  .offer {
-    margin: 15px;
-    padding: 15px;
-    background-color: #f8f8f8;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-  }
-  
-  .offer img {
-    width: 80%;
-    margin-bottom: 10px;
-    border-radius: 8px;
-  }
-  
+}
+.cuerpo{
+  border-radius: 20px;
+  background: #FFF;
+  margin: 20px;
+}
+
+.dest {
+  color: #935614;
+  display: flex;
+}
+.titulo {
+  color: #000;
+  text-align: center;
+  font-family: Maven Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.descrp {
+  color: darkgray;
+}
+ .butt {
+  background-color: #4DB066;
+  border-radius: 50%;
+ }
