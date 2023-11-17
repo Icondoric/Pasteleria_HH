@@ -1,0 +1,93 @@
+.header-comp-andres{
+    background-color: #DDC08D;
+}
+.Encabezado-andres {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-andres {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #DDC08D;
+}
+
+
+.upper-icon-1-andres {
+    color: #333;
+    margin-left: 100px;
+    right: 270px;
+    position: relative;
+}
+.upper-icon-2-andres {
+    color: #333;
+    position: relative;
+    top: 5px;
+}
+
+.search-container-andres {
+    margin: 20px;
+}
+
+.search-container-andres input[type="text"] {
+    padding: 8px 16px;
+    border: 1px solid #542B12;
+    border-radius: 20px;
+    outline: none;
+    background-color: #DDC08D;
+    color: #505050;
+    width: 85%;
+}
+
+.search-box-andres{
+    display: flex;
+}
+.search-box-andres img {
+    position: absolute;
+    left: 30px;
+    top: 83px;
+}
+
+
+.menu-table-andres {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.menu-table-andres td {
+    padding: 0;
+}
+
+.menu-table-andres td:hover {
+    background-color: #F5E1A4; /* Cambia el color de fondo al pasar el ratón sobre un elemento */
+}
+
+.menu-table-andres a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.3s ease; /* Agrega una transición suave al color del texto */
+
+}
+
+.menu-table-andres a:hover {
+    color: #542B12; 
+}
+
+.menu-item-andres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #ddd solid 1px ;
+}
+
+.menu-item-andres img {
+    width: 100px; 
+    height: 100px; 
+    display: block;
+}
+
+.menu-item-andres span {
+    margin-top: 5px;
+}
