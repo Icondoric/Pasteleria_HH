@@ -1,0 +1,5 @@
+.hola{
+ columns: 32;
+ background-attachment: fixed;
+    column-count: auto;
+}
