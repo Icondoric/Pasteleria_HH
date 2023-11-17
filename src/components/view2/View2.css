@@ -1,36 +1,61 @@
-
+/* /src/components/view3/View3.css */
 .view {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  h2 {
-    color: #333;
-  }
-  
-  p {
-    color: #666;
-  }
-  
-  .menu-items {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .menu-item {
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-  }
-  
-  .menu-item img {
-    width: 100%;
-    border-radius: 8px;
-  }
-  
-  .price {
-    font-weight: bold;
-    color: #e44d26;
-  }
+
+  padding: 20px;
+
+  background-color: #DDC08D;
+  max-width: 380px; /* Establece el ancho máximo a 380px */
+   /* Centra el componente en la página */
+}
+
+.top-section,
+.bottom-section {
+  margin-bottom: 2px;
+}
+
+.top-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.back-button,
+.logo {
+  height: 30px;
+}
+
+.back-button {
+  align-self: flex-start;
+}
+
+.logo {
+  align-self: flex-end;
+  width: 15%;
+}
+
+
+
+.api-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contenedor-api {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 1px;
+  padding: 10px;
+  max-width: 170px; /* Reducido para mantener el espacio entre los elementos */
+  text-align: left;
+}
+
+.contenedor-api img {
+  width: 100%;
+  height: auto;
+}
+
+.contenedor-api h2,
+.contenedor-api p {
+  margin: 0;
+}
